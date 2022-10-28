@@ -8,12 +8,12 @@ https://user-images.githubusercontent.com/68790724/198679849-2dc8a4fb-9d42-441f-
 # Installation
 Install the plugin with your package manager of choice.
 
-Using (packer.nvim)[https://github.com/wbthomason/packer.nvim]
+Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 ```lua
 use('trard/fish_abbr.nvim')
 ```
 
-Using (vim-plug)[https://github.com/junegunn/vim-plug]
+Using [vim-plug](https://github.com/junegunn/vim-plug)
 ```lua
 Plug 'trard/fish_abbr.nvim'
 ```
