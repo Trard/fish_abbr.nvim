@@ -10,10 +10,7 @@ Install the plugin with your package manager of choice.
 
 ```lua
 -- Packer
-use {
-  'trard/fish_abbr.nvim',
-  config = function() require("fish_abbr").setup() end
-}
+use('trard/fish_abbr.nvim')
 ```
 
 # Update abbreviations
