@@ -2,6 +2,8 @@ local util = require("fish_abbr.util")
 local compiled = vim.fn.resolve(vim.fn.stdpath("cache") .. "/" .. "fish_abbr_compiled.vim")
 local fish_script = vim.fn.stdpath("data") .. "/abbr_show.fish"
 
+require("fish_abbr.command")
+
 local M = {}
 
 M.compile = function()
