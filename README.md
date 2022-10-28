@@ -3,6 +3,8 @@ A plugin which enables fish [abbreviations](https://fishshell.com/docs/current/c
 
 https://user-images.githubusercontent.com/68790724/198679849-2dc8a4fb-9d42-441f-b058-bb532c954f88.mp4
 
+* Git abbreviations provided by [jhillyerd/plugin-git](https://github.com/jhillyerd/plugin-git)
+
 # Installation
 Install the plugin with your package manager of choice.
 
