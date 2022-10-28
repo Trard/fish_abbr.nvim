@@ -9,8 +9,12 @@ https://user-images.githubusercontent.com/68790724/198679849-2dc8a4fb-9d42-441f-
 Install the plugin with your package manager of choice.
 
 ```lua
--- Packer
+-- packer.nvim
 use('trard/fish_abbr.nvim')
+```
+```lua
+-- vim-plug
+Plug 'junegunn/vim-easy-align'
 ```
 
 # Update abbreviations
