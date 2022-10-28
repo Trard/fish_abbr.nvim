@@ -15,3 +15,9 @@ use {
   config = function() require("fish_abbr").setup() end
 }
 ```
+
+# Update abbreviations
+Run for recompile abbreviations
+```
+:FishAbbrCompile
+```
