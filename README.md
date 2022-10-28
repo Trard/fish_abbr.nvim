@@ -17,7 +17,7 @@ use {
 ```
 
 # Update abbreviations
-Run for recompile abbreviations
+Run to recompile abbreviations
 ```
 :FishAbbrCompile
 ```
