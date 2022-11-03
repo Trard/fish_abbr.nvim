@@ -21,8 +21,8 @@ local function cabbrev_value(abbreviation, command)
 	}, " ")
 end
 
-M.compile = function(compiled_path, fish_script)
-	local fish_script_file = assert(io.popen("/bin/fish " .. fish_script, "r"))
+M.compile = function(compiled_path, get_abbrs)
+	local fish_script_file = assert(io.popen(get_abbrs, "r"))
 
 	local abbreviations = fish_script_file:read("*all")
 	fish_script_file:close()
