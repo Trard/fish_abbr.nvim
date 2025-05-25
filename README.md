@@ -1,12 +1,12 @@
 # fish_abbr.nvim
-A fast and lightweight plugin which enables fish [abbreviations](https://fishshell.com/docs/current/cmds/abbr.html) in [Neovim](neovim.io).
+A fast and lightweight plugin that enables fish [abbreviations](https://fishshell.com/docs/current/cmds/abbr.html) in [Neovim](neovim.io).
 
 https://user-images.githubusercontent.com/68790724/198679849-2dc8a4fb-9d42-441f-b058-bb532c954f88.mp4
 
 * Git abbreviations provided by [jhillyerd/plugin-git](https://github.com/jhillyerd/plugin-git)
 
 # Installation
-Install the plugin with your package manager of choice.
+Install the plugin with a package manager of your choice.
 
 Using [packer.nvim](https://github.com/wbthomason/packer.nvim)
 ```lua
